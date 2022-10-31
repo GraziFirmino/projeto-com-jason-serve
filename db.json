@@ -1,0 +1,44 @@
+{
+    "cursos": [
+      {
+        "serie": 1,
+        "duração": 1,
+        "linguagem": "PHP",
+        "id": 1
+      },
+      {
+        "serie": 2,
+        "duração": 2,
+        "linguagem": "JavaScript",
+        "id": 2
+      },
+      {
+        "serie" : "1",
+        "duração": 3,
+        "linguagem": "JAVA",
+        "id": 3
+      },
+      {
+        "serie" : "1",
+        "duração": 4,
+        "linguagem": "COBOL",
+        "id": 4
+      },
+      {
+        "serie": 2,
+        "duração": 5,
+        "linguagem": "Python",
+        "id": 5
+      }
+    ],
+    "prazos": [
+      {
+        "serie": 1,
+        "linguagem": "Pronto"
+      },
+      {
+        "serie": 2,
+        "linguagem": "Em produção"
+      }
+    ]
+  }
