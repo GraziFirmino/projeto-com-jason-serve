@@ -1,44 +1,113 @@
 {
-    "cursos": [
-      {
-        "serie": 1,
-        "duração": 1,
-        "linguagem": "PHP",
-        "id": 1
-      },
-      {
-        "serie": 2,
-        "duração": 2,
-        "linguagem": "JavaScript",
-        "id": 2
-      },
-      {
-        "serie" : "1",
-        "duração": 3,
-        "linguagem": "JAVA",
-        "id": 3
-      },
-      {
-        "serie" : "1",
-        "duração": 4,
-        "linguagem": "COBOL",
-        "id": 4
-      },
-      {
-        "serie": 2,
-        "duração": 5,
-        "linguagem": "Python",
-        "id": 5
-      }
-    ],
-    "prazos": [
-      {
-        "serie": 1,
-        "linguagem": "Pronto"
-      },
-      {
-        "serie": 2,
-        "linguagem": "Em produção"
-      }
-    ]
-  }
+  "tatuadores": [
+    {
+      "id": 1,
+      "nome": "Ana Guerra",
+      "email": "tatoos.ag@outlook.com",
+      "cidade": "São Paulo-SP",
+      "estilos": "Pontilhismo, Old school, Single line, Cartoon"
+    },
+    {
+      "id": 2,
+      "nome": "Naila Jhessika",
+      "email": "naisij@yahoo.com",
+      "cidade": "Rio de Janeiro-RJ",
+      "estilos": "Maori, Glitch, Oriental, Realista"
+    },
+    {
+      "id": 3,
+      "nome": "Victor Santos",
+      "email": "vic.tatto.saint@yahoo.com",
+      "cidade": "Belo Horizonte-MG",
+      "estilos": "Aquarela, Oriental, Single Line, Minimalista"
+    },
+    {
+      "id": 4,
+      "nome": "Jaqueline Nascimento",
+      "email": "jaque.nullam@gmail.com",
+      "cidade": "Vitória-ES",
+      "estilos": "Geométrico, BlackWork, Aquarela, Old School"
+    },
+    {
+      "id": 5,
+      "nome": "Ivan Douglas",
+      "email": "yvy.fusce@gmail.com",
+      "cidade": "Salvador-BA",
+      "estilos": "Minimalista, Single Line, Black Work, Sem contorno"
+    }
+  ],
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Curso Expert 2.0 - Direto ao ponto ",
+      "especialidade": "pontilhismo",
+      "instrutora": "Ana Guerra",
+      "investimento": "R$ 497,00"
+    },
+    {
+      "id": 2,
+      "nome": "Curso Expert 2.0 - Mini tatuagens",
+      "especialidade": "minimalista",
+      "instrutor": "Victor Santos",
+      "investimento": "R$ 225,00"
+    },
+    {
+      "id": 3,
+      "nome": "Curso Expert 2.0 - realismo ",
+      "especialidade": "realista",
+      "instrutor": "Naila Jhessika",
+      "investimento": "R$ 425,00"
+    },
+    {
+      "id": 4,
+      "nome": "Curso Iniciante - Andando na linha",
+      "especialidade": "single line",
+      "instrutora": "Ivan Douglas",
+      "investimento": "R$ 350,00"
+    },
+    {
+      "id": 5,
+      "nome": "Iniciante - Começando do zero",
+      "especialidade": "aprender do zero a ser um tatuador",
+      "instrutor": "Jaqueline Nascimento",
+      "investimento": "R$ 350,00"
+    }
+  ],
+  "Estudios": [
+    {
+      "id": 1,
+      "Estúdio": "Estúdio Rei do Traço",
+      "endereco": "Rua Donatello Sparvoli, 507 - Marechal Hermes",
+      "cidade": "Rio de Janeiro-RJ",
+      "telefone_fixo": "(21) 31895-8095"
+    },
+    {
+      "id": 2,
+      "Estúdio": "Estúdio Art & Tatoo",
+      "endereco": "Rua dos Zapotecas, 306 - Santa Monica",
+      "cidade": "Belo Horizonte-MG",
+      "telefone_fixo": "(31) 27552-8747"
+    },
+    {
+      "id": 3,
+      "Estúdio": "Estúdio Art Work",
+      "endereco": "Rua João Monteiro, 38 - Campos Elíseos",
+      "cidade": "São Paulo-SP",
+      "telefone_fixo": "(11) 48370-4802"
+    },
+    {
+      "id": 4,
+      "Estúdio": "Estúdio Eskina da Tattoo",
+      "endereco": "Travessa do Clube, 95 - São Pedro",
+      "cidade": "Vitória-ES",
+      "telefone_fixo": "(27) 51209-9231"
+    },
+    {
+      "id": 5,
+      "Estúdio": "Estúdio Front do Tatoo",
+      "endereco": "Avenida São Carlos, 205 - Boa Vista de São Caetano",
+      "cidade": "Salvador-BA",
+      "telefone_fixo": "(71) 59602-7028"
+    }
+  ]
+}
